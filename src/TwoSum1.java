@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+class TwoSum1Solution1 {
 	// (1) naive bruteforce solution 
     public int[] twoSum(int[] nums, int target) {
         // java check array length: a field of array
@@ -20,7 +22,7 @@ class Solution {
     }
 }
 
-class Solution {
+class TwoSum1Solution2 {
     // (2) hash table solution
     // because we are returning the indexes, hash table is the easiest for that
     public int[] twoSum(int[] nums, int target) {
@@ -43,7 +45,7 @@ class Solution {
     }
 }
 
-class Solution {
+class TwoSum1Solution3 {
     // (3) hash table solution optimization
     // check if valid result exists while creating the hashmap
     // if complement value doesn't exist, insert the value in the hashmap
@@ -62,4 +64,11 @@ class Solution {
         // or throw exception
         // throw new IllegalArgumentException("no two sums available");
     }
+}
+
+
+public class TwoSum1 {
+	public static void main (String[] args) {
+		
+	}
 }

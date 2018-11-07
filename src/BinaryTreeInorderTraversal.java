@@ -1,13 +1,7 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
+
+import java.util.*;
+
+class BinaryTreeInorderTraversalSolution {
     public List<Integer> inorderTraversal(TreeNode root) {
         ArrayList<Integer> result = new ArrayList<Integer>();
         Stack<TreeNode> stack = new Stack<TreeNode>();
@@ -27,4 +21,17 @@ class Solution {
         return result;
 
     }
+}
+
+class TreeNode {
+	int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
+public class BinaryTreeInorderTraversal {
+	// testing
+	public static void main(String[] args) {
+	}
 }

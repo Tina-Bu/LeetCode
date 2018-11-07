@@ -8,8 +8,9 @@
  * }
  */
 
+import java.util.*;
 
-class Solution {
+class BinaryTreePreorderTraversalSolution1 {
     public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> result = new ArrayList<Integer>();
 
@@ -37,7 +38,7 @@ class Solution {
 
 
 // recursive solution
-class Solution {
+class BinaryTreePreorderTraversalSolution2 {
     public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> result = new ArrayList<Integer>();
 
@@ -58,4 +59,11 @@ class Solution {
             helper(result, node.right);
         }
     }
+}
+
+
+public class BinaryTreePreorderTraversal {
+	// testing
+	public static void main(String[] args) {
+	}
 }

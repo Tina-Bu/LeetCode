@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class RomanToIntegerSolution {
     public int romanToInt(String s) {
         
         // if string is empty
@@ -37,4 +40,10 @@ class Solution {
     
     }
     
+}
+
+public class RomanToInteger {
+	public static void main (String[] args) {
+		
+	}
 }

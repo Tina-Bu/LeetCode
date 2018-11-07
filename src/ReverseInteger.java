@@ -1,4 +1,4 @@
-class Solution {
+class ReverseIntegerSolution {
     public int reverse(int x) {
         
         // check if integer is negative or not first
@@ -19,4 +19,10 @@ class Solution {
         return negFlag ? -reverse : reverse;
     
     }
+}
+
+public class ReverseInteger {
+	public static void main (String[] args) {
+		
+	}
 }
