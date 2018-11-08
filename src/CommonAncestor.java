@@ -22,6 +22,7 @@ class CommonAncestorSolution {
 		if (pos >= nums.length || nums[pos] == -1) {
 			return null;
 		}
+		
 		Node node = new Node(nums[pos]);
 		// recursion building tree
 		node.left = buildTree(nums, pos * 2 + 1);
